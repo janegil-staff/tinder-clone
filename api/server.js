@@ -8,7 +8,6 @@ const httpServer = createServer(app);
 
 initializeSocket(httpServer);
 
-const { DATABASE_URL } = process.env;
 const PORT = process.env.PORT || 5001;
 
 httpServer.listen(PORT, () => {
