@@ -90,6 +90,7 @@ export const login = async (req, res) => {
     res.status(200).json({
       success: true,
       user,
+      token
     });
   } catch (error) {
     console.log("Error in login controller:", error);
