@@ -7,7 +7,7 @@ import messageRoutes from "./message.routes.js";
 const router = express.Router();
 
 router.use("/auth", authRoutes);
-router.use("/user", userRoutes);
+router.use("/users", userRoutes);
 router.use("/match", matchRoutes);
 router.use("/message", messageRoutes);
 
