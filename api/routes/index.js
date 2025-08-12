@@ -9,6 +9,6 @@ const router = express.Router();
 router.use("/auth", authRoutes);
 router.use("/users", userRoutes);
 router.use("/matches", matchRoutes);
-router.use("/message", messageRoutes);
+router.use("/messages", messageRoutes);
 
 export default router;
